@@ -17,19 +17,6 @@ public class Airplane {
         this.price = airClass.getPrice();
     }
 
-
-//    public  ArrayList<Integer> getPlace() {
-//        return place;
-//    }
-//
-//    public String getDestination() {
-//        return destination;
-//    }
-//
-//    public String getAirClass() {
-//        return airClass;
-//    }
-
     @Override
     public String toString() {
         return "Airplane{" +
