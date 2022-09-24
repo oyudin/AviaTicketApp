@@ -26,7 +26,10 @@ public class Main {
 
             System.out.println("Enter last name:");
             String lName = scanner.next();
-            Client client1 = new Client(fName, lName);
+
+            System.out.println("Enter the year of birth:");
+            int yearOfBirth = scanner.nextInt();
+            Client client1 = new Client(fName, lName, yearOfBirth);
 
 
             System.out.println("Select the plain, enter the number:");

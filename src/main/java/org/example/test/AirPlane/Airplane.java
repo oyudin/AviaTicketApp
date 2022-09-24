@@ -22,6 +22,6 @@ public class Airplane {
         return "Airplane{" +
                 "destination='" + destination + '\'' +
                 ", airClass='" + airClass + '\'' +
-                ", price='" + price + '\'';
+                ", price='" + price + "',";
     }
 }
